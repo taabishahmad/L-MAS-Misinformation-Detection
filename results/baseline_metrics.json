@@ -1,0 +1,8 @@
+{
+    "model": "Baseline (Single-Agent)",
+    "accuracy": 0.6267,
+    "precision": 0.5702,
+    "recall": 0.5877,
+    "f1_score": 0.5788,
+    "roc_auc": 0.6657
+}

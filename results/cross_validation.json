@@ -1,0 +1,106 @@
+{
+    "Logistic Regression": {
+        "cv_f1_mean": 0.578,
+        "cv_f1_std": 0.01,
+        "cv_auc_mean": 0.657,
+        "cv_auc_std": 0.0076,
+        "fold_f1s": [
+            0.5708,
+            0.5942,
+            0.5851,
+            0.5691,
+            0.5707
+        ],
+        "cv_prec_mean": 0.5643,
+        "cv_rec_mean": 0.5925
+    },
+    "Complement NB": {
+        "cv_f1_mean": 0.559,
+        "cv_f1_std": 0.0103,
+        "cv_auc_mean": 0.6369,
+        "cv_auc_std": 0.0066,
+        "fold_f1s": [
+            0.5434,
+            0.5754,
+            0.5612,
+            0.5553,
+            0.5599
+        ],
+        "cv_prec_mean": 0.5479,
+        "cv_rec_mean": 0.5706
+    },
+    "Linear SVM": {
+        "cv_f1_mean": 0.4386,
+        "cv_f1_std": 0.0145,
+        "cv_auc_mean": 0.6344,
+        "cv_auc_std": 0.0054,
+        "fold_f1s": [
+            0.4347,
+            0.4546,
+            0.434,
+            0.4538,
+            0.4157
+        ],
+        "cv_prec_mean": 0.5891,
+        "cv_rec_mean": 0.3495
+    },
+    "Random Forest": {
+        "cv_f1_mean": 0.5834,
+        "cv_f1_std": 0.0155,
+        "cv_auc_mean": 0.6445,
+        "cv_auc_std": 0.0117,
+        "fold_f1s": [
+            0.5548,
+            0.5968,
+            0.583,
+            0.5849,
+            0.5975
+        ],
+        "cv_prec_mean": 0.5423,
+        "cv_rec_mean": 0.6318
+    },
+    "Gradient Boosting": {
+        "cv_f1_mean": 0.4065,
+        "cv_f1_std": 0.0096,
+        "cv_auc_mean": 0.6349,
+        "cv_auc_std": 0.0118,
+        "fold_f1s": [
+            0.4016,
+            0.4255,
+            0.4032,
+            0.4031,
+            0.3991
+        ],
+        "cv_prec_mean": 0.5883,
+        "cv_rec_mean": 0.3108
+    },
+    "L-MAS (Fixed Fusion)": {
+        "cv_f1_mean": 0.6244,
+        "cv_f1_std": 0.0055,
+        "cv_auc_mean": 0.6548,
+        "cv_auc_std": 0.0087,
+        "fold_f1s": [
+            0.6258,
+            0.632,
+            0.6257,
+            0.6238,
+            0.6149
+        ]
+    },
+    "_cv_paired_ttest": {
+        "test": "paired_t_test_across_cv_folds",
+        "n_folds": 5,
+        "t_statistic": 13.0441,
+        "p_value": 0.000199,
+        "significant": true,
+        "cohens_d": 6.5221,
+        "effect_size": "large",
+        "mean_diff": 0.0465,
+        "ci_95": [
+            0.0376,
+            0.0553
+        ],
+        "wilcoxon_p": 0.0625,
+        "interpretation": "Paired t-test across 5 CV folds (F1): t(4)=13.044, p=0.0002 -> SIGNIFICANT at alpha=0.05. Cohen's d=6.522 (large effect). Mean diff=0.0465 [95% CI: 0.0376, 0.0553]. Wilcoxon p=0.0625."
+    }
+}

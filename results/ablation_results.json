@@ -1,0 +1,44 @@
+{
+    "V1: Detection Only": {
+        "precision": 0.5702,
+        "recall": 0.5877,
+        "f1_score": 0.5788,
+        "roc_auc": 0.6657
+    },
+    "V2: Det + Similarity": {
+        "precision": 0.5041,
+        "recall": 0.774,
+        "f1_score": 0.6106,
+        "roc_auc": 0.6573
+    },
+    "V3: Det + Speaker": {
+        "precision": 0.6339,
+        "recall": 0.6637,
+        "f1_score": 0.6484,
+        "roc_auc": 0.7478
+    },
+    "V4: Det + Linguistic": {
+        "precision": 0.5724,
+        "recall": 0.5859,
+        "f1_score": 0.5791,
+        "roc_auc": 0.6661
+    },
+    "V5: Det + Entity": {
+        "precision": 0.468,
+        "recall": 0.9512,
+        "f1_score": 0.6273,
+        "roc_auc": 0.6657
+    },
+    "V6: Det + Sim + Speaker": {
+        "precision": 0.5676,
+        "recall": 0.736,
+        "f1_score": 0.6409,
+        "roc_auc": 0.7275
+    },
+    "V7: Full L-MAS": {
+        "precision": 0.5461,
+        "recall": 0.7812,
+        "f1_score": 0.6429,
+        "roc_auc": 0.7106
+    }
+}

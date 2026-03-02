@@ -1,0 +1,8 @@
+{
+    "model": "L-MAS (Adaptive/GB)",
+    "accuracy": 0.6764,
+    "precision": 0.6474,
+    "recall": 0.5678,
+    "f1_score": 0.605,
+    "roc_auc": 0.7328
+}

@@ -1,0 +1,60 @@
+\begin{table}[htbp]
+\centering
+\caption{Performance on LIAR test set ($n=1{,}267$). Bold = proposed. $\star$ = adaptive variant. Best values per metric in bold.}
+\label{tab:main_results}
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Method} & \textbf{Acc.} & \textbf{Prec.} & \textbf{Rec.} & \textbf{F1} & \textbf{AUC} \\
+\midrule
+Complement Naive Bayes & 0.5951 & 0.5342 & 0.5642 & 0.5488 & 0.6453 \\
+Linear SVM & 0.6180 & 0.6075 & 0.3526 & 0.4462 & 0.6376 \\
+Logistic Regression & 0.6267 & 0.5702 & 0.5877 & 0.5788 & 0.6657 \\
+Random Forest & 0.5967 & 0.5339 & 0.5986 & 0.5644 & 0.6359 \\
+Gradient Boosting & 0.6133 & 0.5778 & 0.4231 & 0.4885 & 0.6294 \\
+LR Baseline (Single-Agent) & 0.6267 & 0.5702 & 0.5877 & 0.5788 & 0.6657 \\
+\textbf{L-MAS Fixed Fusion (Ours)} & 0.6212 & 0.5461 & 0.7812 & 0.6429 & 0.7106 \\
+\textbf{L-MAS Adaptive GB (Ours) $\star$} & 0.6764 & 0.6474 & 0.5678 & 0.6050 & 0.7328 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+% ---
+
+\begin{table}[htbp]
+\centering
+\caption{Cross-domain generalization. Trained on LIAR; zero-shot on FakeNewsNet and ISOT.}
+\label{tab:cross_domain}
+\begin{tabular}{lllccc}
+\toprule
+\textbf{Dataset} & \textbf{Domain} & \textbf{Role} & \textbf{F1} & \textbf{Recall} & \textbf{AUC} \\
+\midrule
+LIAR & Political & In-Domain & 0.6429 & N/A & N/A \\
+FakeNewsNet & News/Celebrity & Cross-Domain & 0.3942 & 0.8826 & 0.5087 \\
+ISOT & News (Reuters) & Cross-Domain & 0.6599 & 0.8791 & 0.5529 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ---
+
+\begin{table}[htbp]
+\centering
+\caption{5-fold cross-validation results (mean $\pm$ std F1). Confirms generalization beyond single test split.}
+\label{tab:cv_results}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Method} & \textbf{CV F1 (mean $\pm$ std)} & \textbf{CV AUC (mean $\pm$ std)} \\
+\midrule
+Logistic Regression & 0.5780 $\pm$ 0.0100 & 0.6570 $\pm$ 0.0076 \\
+Complement NB & 0.5590 $\pm$ 0.0103 & 0.6369 $\pm$ 0.0066 \\
+Linear SVM & 0.4386 $\pm$ 0.0145 & 0.6344 $\pm$ 0.0054 \\
+Random Forest & 0.5834 $\pm$ 0.0155 & 0.6445 $\pm$ 0.0117 \\
+Gradient Boosting & 0.4065 $\pm$ 0.0096 & 0.6349 $\pm$ 0.0118 \\
+\textbf{L-MAS} & \textbf{0.6244 $\pm$ 0.0055} & 0.6548 $\pm$ 0.0087 \\
+\midrule
+\multicolumn{3}{l}{\footnotesize Paired $t$-test (L-MAS vs LR): $t$=13.04, $p$=0.0002, Cohen's $d$=6.522 (large effect)} \\\\
+\bottomrule
+\end{tabular}
+\end{table}

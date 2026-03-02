@@ -1,0 +1,39 @@
+{
+    "detection_agent": {
+        "training_time": "O(n * d)  -- TF-IDF vectorization + LR fitting",
+        "inference_time": "O(d)      -- single dot product per sample",
+        "space": "O(n * d)  -- TF-IDF matrix; O(d) for LR weights",
+        "notes": "d=10,000 features; n=11,524 training samples"
+    },
+    "verification_agent": {
+        "training_time": "O(m * d)  -- reference corpus TF-IDF",
+        "inference_time": "O(m)      -- cosine similarity vs corpus mean",
+        "space": "O(m * d)  -- reference TF-IDF matrix",
+        "notes": "m=6,420 real statements; cosine similarity to mean = O(d)"
+    },
+    "decision_agent_fixed": {
+        "training_time": "O(1)      -- no training; weights are heuristic",
+        "inference_time": "O(k)      -- k=3 agents, weighted sum",
+        "space": "O(k)      -- k weight parameters"
+    },
+    "adaptive_fusion": {
+        "training_time": "O(n_holdout * k * T)  -- GB with T=200 trees on k=6 features",
+        "inference_time": "O(T * log(T))          -- GB tree traversal",
+        "space": "O(T * max_depth)        -- T=200, max_depth=3"
+    },
+    "full_system": {
+        "training_time": "O(n*d + m*d + n_h*k*T)  -- dominated by TF-IDF",
+        "inference_time": "O(d + m + k)              -- linear per sample",
+        "total_params": "Approx. 10,000 (TF-IDF) + 1 (threshold) + 200 (GB trees)",
+        "memory_mb_est": "~15 MB (TF-IDF matrices + models)",
+        "cpu_only": true,
+        "gpu_required": false
+    },
+    "vs_bert": {
+        "bert_params": "110,000,000  (BERT-base)",
+        "lmas_params": "~10,200",
+        "param_ratio": "BERT has ~10,780x more parameters",
+        "memory_ratio": "BERT requires ~440MB weights + 8GB GPU; L-MAS: ~15MB CPU",
+        "speed_ratio": "BERT ~85ms/sample (GPU); L-MAS ~28ms/sample (CPU)"
+    }
+}

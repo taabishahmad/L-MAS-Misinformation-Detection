@@ -1,0 +1,97 @@
+{
+    "points": [
+        {
+            "name": "Complement Naive Bayes",
+            "f1": 0.5488,
+            "memory_mb": 5,
+            "gpu": false,
+            "cat": "lightweight"
+        },
+        {
+            "name": "Linear SVM",
+            "f1": 0.4462,
+            "memory_mb": 5,
+            "gpu": false,
+            "cat": "lightweight"
+        },
+        {
+            "name": "Logistic Regression",
+            "f1": 0.5788,
+            "memory_mb": 5,
+            "gpu": false,
+            "cat": "lightweight"
+        },
+        {
+            "name": "Random Forest",
+            "f1": 0.5644,
+            "memory_mb": 5,
+            "gpu": false,
+            "cat": "lightweight"
+        },
+        {
+            "name": "Gradient Boosting",
+            "f1": 0.4885,
+            "memory_mb": 5,
+            "gpu": false,
+            "cat": "lightweight"
+        },
+        {
+            "name": "L-MAS (Proposed)",
+            "f1": 0.6429,
+            "memory_mb": 15,
+            "gpu": false,
+            "cat": "proposed"
+        },
+        {
+            "name": "DistilBERT",
+            "f1": 0.648,
+            "memory_mb": 255,
+            "gpu": true,
+            "cat": "transformer"
+        },
+        {
+            "name": "BERT-base",
+            "f1": 0.66,
+            "memory_mb": 440,
+            "gpu": true,
+            "cat": "transformer"
+        },
+        {
+            "name": "RoBERTa",
+            "f1": 0.672,
+            "memory_mb": 480,
+            "gpu": true,
+            "cat": "transformer"
+        },
+        {
+            "name": "BERT+Meta",
+            "f1": 0.682,
+            "memory_mb": 450,
+            "gpu": true,
+            "cat": "transformer"
+        }
+    ],
+    "literature_sources": {
+        "DistilBERT": {
+            "f1": 0.648,
+            "memory_mb": 255,
+            "gpu": true
+        },
+        "BERT-base": {
+            "f1": 0.66,
+            "memory_mb": 440,
+            "gpu": true
+        },
+        "RoBERTa": {
+            "f1": 0.672,
+            "memory_mb": 480,
+            "gpu": true
+        },
+        "BERT+Meta": {
+            "f1": 0.682,
+            "memory_mb": 450,
+            "gpu": true
+        }
+    },
+    "note": "Transformer F1 values from published literature on LIAR binary. GPU required for transformer inference."
+}

@@ -1,0 +1,26 @@
+============================================================
+  MULTI-AGENT MISINFORMATION DETECTION SYSTEM
+  Evaluation Report
+============================================================
+
+Model: Baseline (Single-Agent)
+  Accuracy  : 0.6267
+  Precision : 0.5702
+  Recall    : 0.5877
+  F1-Score  : 0.5788
+  ROC-AUC   : 0.6657
+
+Model: L-MAS (Fixed)
+  Accuracy  : 0.6212
+  Precision : 0.5461
+  Recall    : 0.7812
+  F1-Score  : 0.6429
+  ROC-AUC   : 0.7106
+
+Improvement (Multi-Agent over Baseline):
+  accuracy    : -0.0055
+  precision   : -0.0241
+  recall      : +0.1935
+  f1_score    : +0.0641
+
+============================================================

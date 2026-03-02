@@ -1,0 +1,257 @@
+{
+    "counts": {
+        "TP": 432,
+        "TN": 355,
+        "FP": 359,
+        "FN": 121
+    },
+    "high_confidence_errors": {
+        "fp_above_0.65": 37,
+        "fn_below_0.40": 18
+    },
+    "score_stats_TP": {
+        "mean": 0.6084,
+        "std": 0.0681,
+        "min": 0.5008,
+        "max": 0.8064
+    },
+    "score_stats_TN": {
+        "mean": 0.4288,
+        "std": 0.0485,
+        "min": 0.2338,
+        "max": 0.4992
+    },
+    "score_stats_FP": {
+        "mean": 0.5733,
+        "std": 0.0507,
+        "min": 0.5004,
+        "max": 0.7078
+    },
+    "score_stats_FN": {
+        "mean": 0.4477,
+        "std": 0.0429,
+        "min": 0.3019,
+        "max": 0.4993
+    },
+    "false_positive_samples": [
+        {
+            "statement": "contends that president obama literally said if his capandtrade proposals were to pass that utility rates his words now ",
+            "credibility_score": 0.6653,
+            "speaker": "mike-pence",
+            "evidence_flag": "CONTRADICTING",
+            "error_type": "FALSE POSITIVE (Real\u2192Fake)"
+        },
+        {
+            "statement": "suzanne bonamici supports a plan that will cut choice for medicare advantage seniors",
+            "credibility_score": 0.6538,
+            "speaker": "rob-cornilles",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE POSITIVE (Real\u2192Fake)"
+        },
+        {
+            "statement": "building a wall on the usmexico border will take literally years",
+            "credibility_score": 0.6532,
+            "speaker": "rick-perry",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE POSITIVE (Real\u2192Fake)"
+        },
+        {
+            "statement": "says thomas jefferson said you might be able to fool the people for awhile and they may go astray but sooner or later th",
+            "credibility_score": 0.6372,
+            "speaker": "herman-cain",
+            "evidence_flag": "CONTRADICTING",
+            "error_type": "FALSE POSITIVE (Real\u2192Fake)"
+        },
+        {
+            "statement": "there have not been any public safety issues in cities that allow transgender people to use the bathroom of the gender t",
+            "credibility_score": 0.6294,
+            "speaker": "chris-sgro",
+            "evidence_flag": "CONTRADICTING",
+            "error_type": "FALSE POSITIVE (Real\u2192Fake)"
+        },
+        {
+            "statement": "the fed created trillion out of nothing gave it to banks and some of them foreign banks so that they could stabilize the",
+            "credibility_score": 0.617,
+            "speaker": "dennis-kucinich",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE POSITIVE (Real\u2192Fake)"
+        },
+        {
+            "statement": "in massachusetts scott brown pushed for a law to force women considering abortion force them to look at color photograph",
+            "credibility_score": 0.5929,
+            "speaker": "jeanne-shaheen",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE POSITIVE (Real\u2192Fake)"
+        },
+        {
+            "statement": "tim kaine hiked tuition as governor but now claims to champion affordability",
+            "credibility_score": 0.5804,
+            "speaker": "republican-national-committee-republican",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE POSITIVE (Real\u2192Fake)"
+        },
+        {
+            "statement": "greg abbott activated the state guard to monitor jade helm in case the troops try to impose martial law disarm innocent ",
+            "credibility_score": 0.5661,
+            "speaker": "doonesbury",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE POSITIVE (Real\u2192Fake)"
+        },
+        {
+            "statement": "each year people die in america because they dont have health care",
+            "credibility_score": 0.5654,
+            "speaker": "hillary-clinton",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE POSITIVE (Real\u2192Fake)"
+        }
+    ],
+    "false_negative_samples": [
+        {
+            "statement": "when atlanta police chief george turner was interim head of the department overall crime fell percent and violent crime ",
+            "credibility_score": 0.3493,
+            "speaker": "kasim-reed",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE NEGATIVE (Fake\u2192Real)"
+        },
+        {
+            "statement": "citizens property insurance has over billion worth of risk with less than billion worth of surplus",
+            "credibility_score": 0.3552,
+            "speaker": "rick-scott",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE NEGATIVE (Fake\u2192Real)"
+        },
+        {
+            "statement": "sixty percent of the hispanics support the arizona immigration law",
+            "credibility_score": 0.3764,
+            "speaker": "russell-pearce",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE NEGATIVE (Fake\u2192Real)"
+        },
+        {
+            "statement": "we spend in tax loopholes annually trillion thats more than we spend on our defense budget in a year on medicare or medi",
+            "credibility_score": 0.3967,
+            "speaker": "jeanne-shaheen",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE NEGATIVE (Fake\u2192Real)"
+        },
+        {
+            "statement": "this would be the largest casino in the united states",
+            "credibility_score": 0.4269,
+            "speaker": "its-still-bad-idea",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE NEGATIVE (Fake\u2192Real)"
+        },
+        {
+            "statement": "says percent of federal spending goes to the military and just percent goes to food and agriculture including food stamp",
+            "credibility_score": 0.4432,
+            "speaker": "facebook-posts",
+            "evidence_flag": "CONTRADICTING",
+            "error_type": "FALSE NEGATIVE (Fake\u2192Real)"
+        },
+        {
+            "statement": "social security has nothing to do with the federal deficit",
+            "credibility_score": 0.4538,
+            "speaker": "hank-johnson",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE NEGATIVE (Fake\u2192Real)"
+        },
+        {
+            "statement": "we know there are more democrats in georgia than republicans we know that for a fact",
+            "credibility_score": 0.4595,
+            "speaker": "mike-berlon",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE NEGATIVE (Fake\u2192Real)"
+        },
+        {
+            "statement": "on banning earmarks",
+            "credibility_score": 0.4665,
+            "speaker": "bill-nelson",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE NEGATIVE (Fake\u2192Real)"
+        },
+        {
+            "statement": "taxpayers subsidize percent of each marta trip",
+            "credibility_score": 0.4719,
+            "speaker": "brett-bittner",
+            "evidence_flag": "NEUTRAL",
+            "error_type": "FALSE NEGATIVE (Fake\u2192Real)"
+        }
+    ],
+    "speaker_error_analysis": {
+        "barack-obama": {
+            "fp": 23,
+            "fn": 5,
+            "total": 62
+        },
+        "hillary-clinton": {
+            "fp": 14,
+            "fn": 3,
+            "total": 31
+        },
+        "donald-trump": {
+            "fp": 13,
+            "fn": 1,
+            "total": 33
+        },
+        "john-mccain": {
+            "fp": 9,
+            "fn": 2,
+            "total": 21
+        },
+        "scott-walker": {
+            "fp": 9,
+            "fn": 0,
+            "total": 17
+        },
+        "marco-rubio": {
+            "fp": 6,
+            "fn": 1,
+            "total": 14
+        },
+        "rick-scott": {
+            "fp": 3,
+            "fn": 4,
+            "total": 21
+        },
+        "rick-perry": {
+            "fp": 3,
+            "fn": 3,
+            "total": 17
+        },
+        "ted-cruz": {
+            "fp": 5,
+            "fn": 0,
+            "total": 11
+        },
+        "chris-christie": {
+            "fp": 4,
+            "fn": 1,
+            "total": 13
+        },
+        "newt-gingrich": {
+            "fp": 3,
+            "fn": 2,
+            "total": 6
+        },
+        "dan-patrick": {
+            "fp": 4,
+            "fn": 1,
+            "total": 5
+        },
+        "john-boehner": {
+            "fp": 4,
+            "fn": 0,
+            "total": 11
+        },
+        "mitt-romney": {
+            "fp": 4,
+            "fn": 0,
+            "total": 17
+        },
+        "jeb-bush": {
+            "fp": 3,
+            "fn": 1,
+            "total": 10
+        }
+    }
+}

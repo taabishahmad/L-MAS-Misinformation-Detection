@@ -1,0 +1,24 @@
+{
+    "liar_in_domain": {
+        "domain": "LIAR (In-Domain)",
+        "f1_score": 0.6429,
+        "n_samples": 1267,
+        "note": "In-domain test result from main pipeline"
+    },
+    "fakenewsnet": {
+        "domain": "FakeNewsNet",
+        "n_samples": 5000,
+        "precision": 0.2538,
+        "recall": 0.8826,
+        "f1_score": 0.3942,
+        "roc_auc": 0.5087
+    },
+    "isot": {
+        "domain": "ISOT Fake News",
+        "n_samples": 5000,
+        "precision": 0.5281,
+        "recall": 0.8791,
+        "f1_score": 0.6599,
+        "roc_auc": 0.5529
+    }
+}

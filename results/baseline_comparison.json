@@ -1,0 +1,56 @@
+{
+    "Complement Naive Bayes": {
+        "accuracy": 0.5951,
+        "precision": 0.5342,
+        "recall": 0.5642,
+        "f1_score": 0.5488,
+        "roc_auc": 0.6453,
+        "train_time_s": 0.44,
+        "infer_time_ms": 30.0
+    },
+    "Linear SVM": {
+        "accuracy": 0.618,
+        "precision": 0.6075,
+        "recall": 0.3526,
+        "f1_score": 0.4462,
+        "roc_auc": 0.6376,
+        "train_time_s": 0.53,
+        "infer_time_ms": 30.5
+    },
+    "Logistic Regression": {
+        "accuracy": 0.6267,
+        "precision": 0.5702,
+        "recall": 0.5877,
+        "f1_score": 0.5788,
+        "roc_auc": 0.6657,
+        "train_time_s": 0.45,
+        "infer_time_ms": 28.8
+    },
+    "Random Forest": {
+        "accuracy": 0.5967,
+        "precision": 0.5339,
+        "recall": 0.5986,
+        "f1_score": 0.5644,
+        "roc_auc": 0.6359,
+        "train_time_s": 0.71,
+        "infer_time_ms": 92.6
+    },
+    "Gradient Boosting": {
+        "accuracy": 0.6133,
+        "precision": 0.5778,
+        "recall": 0.4231,
+        "f1_score": 0.4885,
+        "roc_auc": 0.6294,
+        "train_time_s": 9.79,
+        "infer_time_ms": 21.8
+    },
+    "L-MAS (Proposed)": {
+        "accuracy": 0.6212,
+        "precision": 0.5461,
+        "recall": 0.7812,
+        "f1_score": 0.6429,
+        "roc_auc": 0.7106,
+        "train_time_s": null,
+        "infer_time_ms": null
+    }
+}
