@@ -87,13 +87,13 @@ See `results/mas_metrics.json` for primary L-MAS performance.
 
 If you use this code, please cite:
 ```bibtex
-@article{ahmad2025lmas,
+@article{tabish2026lmas,
   title     = {L-MAS: A Lightweight Multi-Agent System for Cost-Sensitive 
                Misinformation Detection with Cross-Domain Robustness in 
                Cyber-Surveillance Environments},
   author    = {Ahmad, Tabish},
   journal   = {Expert Systems With Applications},
-  year      = {2025},
+  year      = {2026},
   publisher = {Elsevier}
 }
 ```
