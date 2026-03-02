@@ -5,7 +5,7 @@
 > Code for the paper: **"L-MAS: A Lightweight Multi-Agent System for Cost-Sensitive 
 > Misinformation Detection with Cross-Domain Robustness in Cyber-Surveillance Environments"**  
 > Tabish Ahmad — International Islamic University Islamabad (IIUI)  
-> *Submitted to Expert Systems With Applications (Elsevier), 2025*
+> *Submitted to Expert Systems With Applications (Elsevier), 2026*
 
 ---
 
