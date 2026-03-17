@@ -5,7 +5,7 @@
 > Code for the paper: **"L-MAS: A Lightweight Multi-Agent System for Cost-Sensitive 
 > Misinformation Detection with Cross-Domain Robustness in Cyber-Surveillance Environments"**  
 > Tabish Ahmad — International Islamic University Islamabad (IIUI)  
-> *Submitted to Expert Systems With Applications (Elsevier), 2026*
+
 
 ---
 
@@ -87,12 +87,12 @@ See `results/mas_metrics.json` for primary L-MAS performance.
 
 If you use this code, please cite:
 ```bibtex
-@article{tabish2026lmas,
+@article{ahmad2026lmas,
   title     = {L-MAS: A Lightweight Multi-Agent System for Cost-Sensitive 
                Misinformation Detection with Cross-Domain Robustness in 
                Cyber-Surveillance Environments},
   author    = {Ahmad, Tabish},
-  journal   = {Expert Systems With Applications},
+  journal   = {Information Processing and Management},
   year      = {2026},
   publisher = {Elsevier}
 }
